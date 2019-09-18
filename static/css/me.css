@@ -55,7 +55,17 @@ body{
     padding-bottom: 5em !important;
 }
 
+.m-padded-lr-responsive{
+    padding-left: 4em !important;
+    padding-right: 4em !important;
+}
 
+/*-------------shadow ------------*/
+
+.m-shadow-small{
+    -webkit-box-shadow: 0 4px 8px rgba(0,0,0,0.2) !important;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2) !important;
+}
 
 /*------------------margin----------------*/
 
@@ -74,6 +84,10 @@ body{
 
 .m-margin-top-small{
     margin-top: 0.5em !important;
+}
+
+.m-margin-bottom-small{
+    margin-bottom: 0.5em !important;
 }
 
 
@@ -121,6 +135,11 @@ body{
     margin: auto !important;
 }
 
+.m-container-small{
+    max-width: 60em !important;
+    margin: auto !important;
+}
+
 /*color*/
 .m-black{
     color: #333 !important;
@@ -145,5 +164,17 @@ body{
     .m-mobile-show{
         display: block !important;
     }
+    .m-padded-lr-responsive{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .m-mobile-lr-clear{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .m-mobile-wide{
+        width: 100% !important;
+    }
 }
+
 
